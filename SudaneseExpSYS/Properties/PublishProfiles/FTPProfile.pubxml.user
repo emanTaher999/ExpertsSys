@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAefwG1snNw0WiWh4c1Fsn5QAAAAACAAAAAAAQZgAAAAEAACAAAABtk1rTZM3NQdlSpyMlbs+1AnI9tv9Objm7q2HerTza4gAAAAAOgAAAAAIAACAAAAAC6jb+5fZJpUIUTUnTeioyhu3QUOtMSCWeNg12fx30YiAAAACUtwnA34DW2q9dBM+eZ+UDwkMCOpwidKDb3cnFVodTBkAAAAB5tnRo3o4hq7PIX46LZwascjk15uGrKGRIWZqcVXc/u4vTzjOUwyB44QCJOvrARezzqwwQ/4VlsVuNYdc7qxEK</EncryptedPassword>
+    <_PublishTargetUrl>ftp://sudaneseexpert.somee.com/www.sudaneseexpert.somee.com</_PublishTargetUrl>
+    <History>False|2024-06-18T22:40:01.7406127Z;False|2024-06-19T00:56:39.3972384+03:00;False|2024-06-19T00:28:41.6197694+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MyConnection">
+      <Value>Server=SudnesExpertDB.mssql.somee.com%3bDatabase=SudnesExpertDB%3buser id=Eman999_SQLLogin_1%3bpwd=jiazngfrl3%3bTrustServerCertificate=True</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

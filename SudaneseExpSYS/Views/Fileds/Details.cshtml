@@ -1,0 +1,29 @@
+﻿@model SudaneseExpSYS.Models.Filed
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="title-header">
+    <h4 class="d-flex justify-content-center "><i class="mx-2 my-auto fa fa-book-open"> @SudaneseExpSYS.Resourses.Resource.Fields</i></h4>
+</div>
+
+<fieldset class="card p-4 shadow" dir="rtl">
+    <legend class="bg-custom shadow  px-3">@SudaneseExpSYS.Resourses.Resource.Details</legend>
+    <div class="row">
+        <div class="alert col-md-5 mx-4 alert-info ">
+            <label asp-for="FName" class="control-label">@SudaneseExpSYS.Resourses.Resource.FName</label>
+            <div class="">
+                @Html.DisplayFor(model => model.FName)
+            </div>
+        </div>
+
+    </div>
+
+    <p>
+        <a asp-action="Edit" class="btn btn-primary">@SudaneseExpSYS.Resourses.Resource.Edit</a>
+        <a asp-action="Index" class="btn btn-info">@SudaneseExpSYS.Resourses.Resource.Back</a>
+    </p>
+</fieldset>
+
+

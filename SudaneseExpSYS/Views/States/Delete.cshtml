@@ -1,0 +1,37 @@
+﻿@model SudaneseExpSYS.Models.State
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<div class="title-header">
+    <h4 class="d-flex justify-content-center "><i class="mx-2 my-auto fa fa-globe"> @SudaneseExpSYS.Resourses.Resource.States</i></h4>
+</div>
+<br />
+
+<fieldset class="card p-4 shadow">
+
+    <legend class="bg-custom shadow  px-3">@SudaneseExpSYS.Resourses.Resource.Delete</legend>
+    <br />
+    <form asp-action="Delete">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="SId" />
+        <div class="row my-2">
+            <div class="col-md-3">
+
+                <label asp-for="SName" class="control-label">@SudaneseExpSYS.Resourses.Resource.SName</label>
+                <div class="editor-field">
+                    <input asp-for="SName" class="form-control" />
+                    <span asp-validation-for="SName" class="text-danger"></span>
+                </div>
+            </div>
+
+
+        </div>
+        <br />
+        <p>
+            <input type="submit" value="@SudaneseExpSYS.Resourses.Resource.Save" class="btn btn-danger" />
+            <a asp-action="Delete" class="btn btn-info">@SudaneseExpSYS.Resourses.Resource.Back</a>
+
+        </p>
+    </form>
+</fieldset>

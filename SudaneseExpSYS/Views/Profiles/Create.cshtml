@@ -1,0 +1,137 @@
+﻿@model Profile
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div class="title-header">
+        <h4 class="d-flex justify-content-center "><i class="mx-2 my-auto fa fa-user-graduate"> @SudaneseExpSYS.Resourses.Resource.Expert</i></h4>
+    </div>
+
+    <fieldset class="card p-4 shadow">
+
+        <legend class="bg-custom shadow  px-3">@SudaneseExpSYS.Resourses.Resource.Create</legend>
+        <div asp-validation-summary="All"></div>
+        <div class="row my-2">
+         
+          <div class="col-md-4">
+                <label asp-for="Name">@SudaneseExpSYS.Resourses.Resource.Name</label>
+            <div>
+              <input type="text" asp-for="Name" class="form-control"/>
+              <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+          </div>
+
+            <div class="col-md-4">
+                <label asp-for="NationalId">@SudaneseExpSYS.Resourses.Resource.NationalId</label>
+                <div>
+                    <input type="text" asp-for="NationalId" class="form-control" />
+                    <span asp-validation-for="NationalId" class="text-danger"></span>
+                </div>
+            </div>
+
+            
+          <div class="col-md-4">
+                <label asp-for="Sex">@SudaneseExpSYS.Resourses.Resource.Sex</label>
+            <div>
+                    <select asp-for="Sex" class="form-select form-control" asp-items="@ViewBag.Gender">
+                    </select>
+
+                    <span asp-validation-for="Sex" class="text-danger"></span>
+                </div>
+                     
+        </div>
+        </div>
+      
+        <div class="row my-2">
+            <div class="col-md-4">
+                <label asp-for="BrithDay">@SudaneseExpSYS.Resourses.Resource.BrithDay</label>
+                <input type="date" asp-for="BrithDay" class="form-control">
+
+                <span asp-validation-for="BrithDay" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Phone">@SudaneseExpSYS.Resourses.Resource.Phone</label>
+                <input type="text" asp-for="Phone" class="form-control">
+
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Email">@SudaneseExpSYS.Resourses.Resource.Email</label>
+                <input type="email" asp-for="Email" class="form-control" >
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+           
+            
+        </div>
+      
+        <div class="row my-2">
+            <div class="col-md-4">
+                <label asp-for="SId">@SudaneseExpSYS.Resourses.Resource.SId</label>
+              
+                    <select asp-for="SId" class="form-control" asp-items="@ViewBag.StateList">
+                    </select>
+               
+                <span asp-validation-for="SId" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="CId">@SudaneseExpSYS.Resourses.Resource.CId</label>
+                <select asp-for="CId" class="form-control" asp-items="@ViewBag.CountryList">
+                </select>
+
+                <span asp-validation-for="CId" class="text-danger"></span>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="FId">@SudaneseExpSYS.Resourses.Resource.FId</label>
+                <select asp-for="FId" class="form-control" asp-items="@ViewBag.FildList">
+                </select>
+
+                <span asp-validation-for="FId" class="text-danger"></span>
+            </div>
+
+         </div>
+        <div class="row my-2">
+                    <div class="col-md-4">
+                <label asp-for="Achievement">@SudaneseExpSYS.Resourses.Resource.Achievement</label>
+                        <select asp-for="Achievement" class="form-select form-control" asp-items="@ViewBag.GetAchivment">
+                        </select>
+                        <span asp-validation-for="Achievement" class="text-danger"></span>
+                    </div>
+            <div class="col-md-4">
+                <label asp-for="ExitDay">@SudaneseExpSYS.Resourses.Resource.ExitDay</label>
+                <input type="date" asp-for="ExitDay" class="form-control">
+
+                <span asp-validation-for="ExitDay" class="text-danger"></span>
+            </div>
+
+                    <div class="col-md-4">
+                <label asp-for="Phone">@SudaneseExpSYS.Resourses.Resource.dbImage</label>
+                    <input type="file" asp-for="ClientFile" onload="loadFile(event)" />
+                    <img id="myImg" height="100" />
+                    </div> 
+
+                   
+
+         </div>
+
+        <p>
+            <button type="submit" class="btn btn-primary" style="width:100px">@SudaneseExpSYS.Resourses.Resource.Save</button>
+            <a asp-action="Index" class="btn btn-info">@SudaneseExpSYS.Resourses.Resource.Back</a>
+        </p>
+    </fieldset>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        var loadFile = function (event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var myImg = document.getElementById('myImg');
+                myImg.src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+}

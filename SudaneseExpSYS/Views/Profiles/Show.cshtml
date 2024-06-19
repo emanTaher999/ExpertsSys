@@ -1,0 +1,90 @@
+﻿@model IEnumerable<SudaneseExpSYS.Models.Profile>
+
+@{
+    ViewData["Title"] = "Index";
+
+}
+
+@if (TempData["AlertAdd"] != null)
+{
+    <script src="~/sweetalert2/sweetalert2.all.min.js"></script>
+    <script type="text/javascript">
+        Swal.fire({
+            title: "نجحت العملية !",
+            text: "تمت الإضافة بنجاح!",
+            icon: "success"
+        });
+    </script>
+}
+@if (TempData["AlertEdit"] != null)
+{
+    <script src="~/sweetalert2/sweetalert2.all.min.js"></script>
+    <script type="text/javascript">
+        Swal.fire({
+            title: "نجحت العملية !",
+            text: "تمت التعديل بنجاح!",
+            icon: "success"
+        });
+    </script>
+}
+@if (TempData["AlertDelete"] != null)
+{
+    <script src="~/sweetalert2/sweetalert2.all.min.js"></script>
+    <script type="text/javascript">
+        Swal.fire(
+            'نجحت العملية',
+            'تم الحذف بنجاح',
+            'error'
+        )
+    </script>
+}
+
+
+<div class="title-header">
+    <h4 class="d-flex justify-content-center "><i class="mx-2 my-auto fa fa-user-graduate"> @SudaneseExpSYS.Resourses.Resource.Expert</i></h4>
+</div>
+@* <br /> *@
+
+<div style="margin-bottom:20px" align="center">
+    <input type="text" name="search" placeholder="@SudaneseExpSYS.Resourses.Resource.Search" class="form-control" style="width: 300px; margin-bottom: 10px" />
+    <input type="submit" name="submit" value="@SudaneseExpSYS.Resourses.Resource.Search" class="btn btn-outline-primary" />
+</div>
+<a asp-action="Create" class="btn btn-info">@SudaneseExpSYS.Resourses.Resource.Create</a>
+
+
+<div class="album py-5 bg-body-tertiary" style="background-color:#f8f9fc">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            @foreach (var item in Model)
+            {
+
+           <div class="col" style="margin-bottom: 3%;">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="200" src="@item.imageSrc" role="img" />
+            <div class="card-body">
+              <h4 class="card-text">@item.Name</h4>
+              <p class="card-text">@item.Email</p>
+              <p class="card-text">@item.Achievement</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-success"><i class="fa fa-pencil-alt"></i></a>
+                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info"><i class="fa fa-list"></i></a>
+                                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger"><i class="fa fa-trash"></i></a>
+
+                </div>
+                                <small class="text-body-secondary">@item.Id</small>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+            }
+            
+            </div>
+       
+        </div>
+    </div>
+
+
+

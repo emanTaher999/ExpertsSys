@@ -1,0 +1,50 @@
+﻿@model SudaneseExpSYS.Models.Country
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="title-header">
+    <h4 class="d-flex justify-content-center "><i class="mx-2 my-auto fa fa-globe"> @SudaneseExpSYS.Resourses.Resource.Country</i></h4>
+</div>
+
+<fieldset class="card p-4 shadow" dir="rtl">
+    <legend class="bg-custom shadow  px-3">@SudaneseExpSYS.Resourses.Resource.Details</legend>
+    <div class="row">
+        <div class="alert col-md-5 mx-4 alert-info ">
+            <label asp-for="CName" class="control-label">@SudaneseExpSYS.Resourses.Resource.CName</label>
+            <div class="">
+                @Html.DisplayFor(model => model.CName)
+            </div>
+        </div>
+       
+    </div>
+
+    <p>
+        <a asp-action="Edit" class="btn btn-primary">@SudaneseExpSYS.Resourses.Resource.Edit</a>
+        <a asp-action="Index" class="btn btn-info">@SudaneseExpSYS.Resourses.Resource.Back</a>
+    </p>
+</fieldset>
+
+
+
+
+@* <h1>Details</h1>
+
+<div>
+    <h4>Country</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.CId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+ *@

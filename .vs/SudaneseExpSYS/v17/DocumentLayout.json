@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\NetCore2022\\SudaneseExpSYS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|f:\\netcore2022\\sudaneseexpsys\\sudaneseexpsys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|solutionrelative:sudaneseexpsys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|f:\\netcore2022\\sudaneseexpsys\\sudaneseexpsys\\sudaneseexpsys.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|solutionrelative:sudaneseexpsys\\sudaneseexpsys.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|f:\\netcore2022\\sudaneseexpsys\\sudaneseexpsys\\views\\shared\\_layoutarabic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|solutionrelative:sudaneseexpsys\\views\\shared\\_layoutarabic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|f:\\netcore2022\\sudaneseexpsys\\sudaneseexpsys\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|solutionrelative:sudaneseexpsys\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|f:\\netcore2022\\sudaneseexpsys\\sudaneseexpsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|solutionrelative:sudaneseexpsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|f:\\netcore2022\\sudaneseexpsys\\sudaneseexpsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08A1A54A-1F4D-44B1-8637-707B44847A0B}|SudaneseExpSYS\\SudaneseExpSYS.csproj|solutionrelative:sudaneseexpsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutArabic.cshtml",
+              "DocumentMoniker": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\Views\\Shared\\_LayoutArabic.cshtml",
+              "RelativeDocumentMoniker": "SudaneseExpSYS\\Views\\Shared\\_LayoutArabic.cshtml",
+              "ToolTip": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\Views\\Shared\\_LayoutArabic.cshtml",
+              "RelativeToolTip": "SudaneseExpSYS\\Views\\Shared\\_LayoutArabic.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABUAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T14:07:50.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SudaneseExpSYS\\Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SudaneseExpSYS\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T14:14:27.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SudaneseExpSYS",
+              "DocumentMoniker": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\SudaneseExpSYS.csproj",
+              "RelativeDocumentMoniker": "SudaneseExpSYS\\SudaneseExpSYS.csproj",
+              "ToolTip": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\SudaneseExpSYS.csproj",
+              "RelativeToolTip": "SudaneseExpSYS\\SudaneseExpSYS.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-18T10:30:18.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\appsettings.json",
+              "RelativeDocumentMoniker": "SudaneseExpSYS\\appsettings.json",
+              "ToolTip": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\appsettings.json",
+              "RelativeToolTip": "SudaneseExpSYS\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-18T20:28:53.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SudaneseExpSYS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SudaneseExpSYS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T14:08:54.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\Program.cs",
+              "RelativeDocumentMoniker": "SudaneseExpSYS\\Program.cs",
+              "ToolTip": "F:\\NetCore2022\\SudaneseExpSYS\\SudaneseExpSYS\\Program.cs",
+              "RelativeToolTip": "SudaneseExpSYS\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T20:55:23.744Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

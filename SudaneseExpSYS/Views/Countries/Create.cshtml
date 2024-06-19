@@ -1,0 +1,61 @@
+﻿@model SudaneseExpSYS.Models.Country
+
+@{
+    ViewData["Title"] = "Create";
+}
+  <form method="post">
+<div class="title-header">
+    <h4 class="d-flex justify-content-center "><i class="mx-2 my-auto fa fa-globe"> @SudaneseExpSYS.Resourses.Resource.Country</i></h4>
+</div>
+
+<fieldset class="card p-4 shadow">
+
+        <legend class="bg-custom shadow  px-3">@SudaneseExpSYS.Resourses.Resource.Create</legend>
+    
+  
+    <div class="row my-2">
+        <div class="col-md-6">
+
+                <label asp-for="CName" class="control-label">@SudaneseExpSYS.Resourses.Resource.CName</label>
+            <div class="editor-field">
+                <input asp-for="CName" class="form-control" />
+                <span asp-validation-for="CName" class="text-danger"></span>
+            </div>
+        </div>
+
+       
+    </div>
+    <br />
+    <p>
+            <button type="submit" class="btn btn-primary" style="width:100px">@SudaneseExpSYS.Resourses.Resource.Save</button>
+
+      @*   <input type="submit" value="حفظ" class="btn btn-primary" /> *@
+            <a asp-action="Index" class="btn btn-info">@SudaneseExpSYS.Resourses.Resource.Back</a>
+    </p>
+</fieldset>
+</form>
+@* <h1>Create</h1>
+
+<h4>Country</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CName" class="control-label"></label>
+                <input asp-for="CName" class="form-control" />
+                <span asp-validation-for="CName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+ *@
